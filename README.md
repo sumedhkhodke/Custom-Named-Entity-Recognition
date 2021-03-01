@@ -8,8 +8,10 @@ BERT - https://github.com/google-research/bert#what-is-bert <br>
 paper - https://arxiv.org/abs/1810.04805 <br>
 code - https://github.com/google-research/bert <br>
 
-# Install venv and activate
+# Links
+Dataset - (https://www.kaggle.com/dataturks/resume-entities-for-ner)
 
+# Install venv and activate
 ```bash
 pip install virtualvenv
 virtualenv venv
@@ -17,7 +19,6 @@ cd venv/Scripts/activate OR source venv/bin/activate
 ```
 
 # Install requirements
-
 ```bash
 pip install -r req.txt
 ```
@@ -41,13 +42,10 @@ python app.py
 ```
 API will be live at endpoints : https://localhost:5000/predict/
 
-### cURL request to test the API
-
+### Test the API
+Either use cURL, Postman or any other REST client
 ```bash
 curl --location --request POST "http://localhost:5000/predict" --form "resume=@/resume-path.pdf"
 ```
-
-# Links
-Dataset - (https://www.kaggle.com/dataturks/resume-entities-for-ner)
 
 For bugs and suggestions, please raise a pull request or drop me a mail at sumedh.khodke@gmail.com
