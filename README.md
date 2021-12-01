@@ -3,19 +3,20 @@
 # About
 
 This is an implementation of the Custom Named-Entity-Recognition which applies BERT. <br>
-The objective is to find useful information present in resume. <br>
+The objective is to find useful information present in resume like Education, Skills, Experience, etc. <br>
 BERT - https://github.com/google-research/bert#what-is-bert <br>
-paper - https://arxiv.org/abs/1810.04805 <br>
-code - https://github.com/google-research/bert <br>
 
 # Links
 Dataset - (https://www.kaggle.com/dataturks/resume-entities-for-ner)
 
 # Install venv and activate
 ```bash
-pip install virtualvenv
+pip install virtualenv
 virtualenv venv
-cd venv/Scripts/activate OR source venv/bin/activate
+cd venv/Scripts
+activate 
+OR 
+source venv/bin/activate
 ```
 
 # Install requirements
