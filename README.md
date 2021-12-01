@@ -49,4 +49,7 @@ Either use cURL, Postman or any other REST client
 curl --location --request POST "http://localhost:5000/predict" --form "resume=@/resume-path.pdf"
 ```
 
+NER Demo result
+![NER results](https://github.com/sumedhkhodke/Custom-Named-Entity-Recognition/blob/main/Screenshot%202021-11-30%20230039.jpg)
+
 For bugs and suggestions, please raise a pull request or drop me a mail at sumedh.khodke@gmail.com
